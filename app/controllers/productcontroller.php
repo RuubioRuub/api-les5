@@ -18,9 +18,9 @@ class ProductController extends Controller
 
     public function getAll()
     {
-        $jwt = $this->checkForToken();
-        if (!$jwt)
-            return;
+       //$jwt = $this->checkForToken();
+       // if (!$jwt)
+       //     return;
 
         $offset = NULL;
         $limit = NULL;
