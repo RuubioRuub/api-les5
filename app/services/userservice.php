@@ -17,3 +17,5 @@ class UserService {
         return $this->repository->checkUsernamePassword($username, $password);
     }
 }
+
+?>

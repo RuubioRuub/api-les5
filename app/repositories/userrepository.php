@@ -46,3 +46,5 @@ class UserRepository extends Repository
         return password_verify($input, $hash);
     }
 }
+
+?>

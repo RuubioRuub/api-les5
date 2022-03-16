@@ -9,3 +9,5 @@ class User
     public string $password;
     public string $email;
 }
+
+?>
